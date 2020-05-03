@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Objectives and Tasks",
+    "version": "0.1",
+    "description": "",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icons/taskBoard.png",
+        "default_title": "Tasks and Objectives",
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "web_accessible_resources": [
+    ]
+}

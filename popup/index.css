@@ -1,0 +1,83 @@
+#main-body-div{
+    min-width: 200px;
+    max-width: 500px;
+    min-height:280px;
+    max-height: 500px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: stretch;
+    border-radius: 25px;
+}
+
+#nav-div{
+    flex-direction: row;
+}
+
+.general-button{
+    border-radius: 25px;
+}
+
+#completed-btn{
+    margin: 2px;
+    background-color: #14A76C;
+    color:#FFFFFF;
+}
+
+#in-progress-btn{
+    margin: 2px;
+    background-color: #FFE400;
+
+}
+
+#on-hold-btn{
+    margin: 2px;
+    background-color: #FF652F;
+}
+
+#begin-input-btn{
+    background-color: #09d602;
+    border-radius: 10px;
+}
+
+#add-new-task-btn{
+    background-color: #09d602;
+    border-radius: 10px;
+}
+
+#close-input-btn{
+    background-color: #eb1000;
+    border-radius: 10px;
+}
+
+#content-section{
+    width: 100%;
+    max-height: inherit;
+    margin:2px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 8;
+    overflow-y: scroll;
+}
+
+#current-task-list{
+    flex-grow: 9;
+    max-height: inherit;
+}
+
+#input-aside{
+
+}
+
+#input-div{
+    display:none;
+}
+
+#input-form{
+    display: flex;
+    flex-direction: column;
+}
+
